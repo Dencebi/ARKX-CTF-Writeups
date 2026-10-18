@@ -1,20 +1,18 @@
 # Tier 2 — Advanced Track, Level 7: Master of Resources
 
-**Status:** Attempted; not confirmed passed.
+**Result: PASSED (user-confirmed).** The exact successful transcript or screenshot for this specific challenge was not included in the supplied evidence, so the technical details below are clearly marked as unverified.
 
-## Result
+## 1. Result
+The user confirms the level was passed. An earlier attempt submitted `flag-575ca3` and was rejected; that value is not the successful flag and is not treated as evidence of the final solve.
 
-A candidate flag, `flag-575ca3`, was submitted during an earlier attempt and was rejected. It must not be treated as the correct flag or a successful solve.
+## 2. Exploit
+The successful exploit steps, affected resource, payload, and accepted output are not present in the retained notes. They must be added from the successful run; no exploit is fabricated from the challenge title alone.
 
-## Current documentation status
+## 3. Root cause
+**Not established.** “Master of Resources” does not, by itself, prove whether the weakness involved resource authorization, enumeration, privilege escalation, or another control failure.
 
-The exact successful exploit path and an accepted completion result are not present in the available notes.
+## 4. Impact & severity
+**Provisional severity: Not rated.** If the challenge involved unauthorized access to protected resources, potential impact could include confidentiality or integrity loss. The affected assets, preconditions, and actual exploit path need confirmation before assigning a defensible severity.
 
-## To complete this write-up
-
-- [ ] Revisit the challenge and capture its objective and resource boundaries.
-- [ ] Record the successful steps and raw tool output.
-- [ ] Verify the challenge accepts the final result before marking this level passed.
-- [ ] Add root cause, impact/severity, and relevant security mapping once supported by evidence.
-
-No unverified flag is recorded as valid.
+## 5. Mapping
+**CWE / OWASP mapping: pending evidence.** A classification should be assigned only after the successful exploit transcript or challenge implementation confirms the underlying weakness.
